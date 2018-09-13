@@ -1,0 +1,84 @@
+/**Stylesheet for index.html, Homework-01**/
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin:auto;
+    text-align: center;
+    }
+
+header {
+    background: #ebebeb;
+    padding: 30px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+.nav {
+    background: #ebebeb;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.full {
+    display: flex;
+    background: #777;
+    overflow: hidden;
+}
+
+.leftSection {
+    float:left;
+    background: #ebebeb;
+    padding: 10px;
+    width:495px;
+    Margin: 10px 10px 10px 0px;
+    
+}
+
+.article {
+    color: #ebebeb;
+    background: #777;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.articleHeading {
+    color: #777;
+    background: #ebebeb;
+    padding: 1px;
+}
+
+.paragraph {
+    color: #777;
+    background: #ebebeb;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+aside {
+    float:left;
+    background: #ebebeb;
+    padding: 20px;
+    width: 385px;
+    Margin: 10px 0px 10px 10px;
+}
+
+footer {
+    background: #ebebeb;
+    padding: 30px;
+    margin-top: 10px;
+}
